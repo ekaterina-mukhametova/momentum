@@ -1,0 +1,85 @@
+
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+  background-size: cover;
+  color: #000000;
+  transition: background-image 1s ease-in-out;
+}
+
+.time {
+  font-size: 8rem;
+}
+
+.date {
+  font-size: 4rem;
+}
+
+h1 {
+  margin-bottom: 3rem;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+  opacity: 0.8;
+}
+
+.btn, .btn2 {
+  width: 60px;
+  height: 60px;
+  border: 0;
+  background: url("https://www.pngarts.com/files/7/Update-Button-PNG-Image.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: grayscale(1);
+  margin: 10px;
+}
+.btn:hover, .btn2:hover {
+  filter: grayscale(.8);
+}
+.btn:active, .btn2:active,
+.btn:focus, .btn2:focus {
+  outline: 0;
+}
+.btn:active, .btn2:active{
+  transform: scale(1.02)
+}
+
+.city {
+  font-size: 2rem;
+}
+i {
+  width: 40px;
+  height: 40px;
+}
+.temperature {
+  font-size: 2em;
+}
+
+.quote {
+  font-size: 1.2rem;
+  margin: 0;
+  background: #ADA89F;
+  padding: 1em;
+  border-radius: 1em;
+  opacity: 0.7;
+}
+
+.quote blockquote {
+  margin: 1em;
+}
+.quote figcaption {
+  text-align: right;
+}
+
+@media (max-width: 700px) {
+  .time {
+    font-size: 6rem;
+  }
+}
